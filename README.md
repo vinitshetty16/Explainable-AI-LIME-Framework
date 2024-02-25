@@ -2,8 +2,9 @@
 
 <img src="https://github.com/vinitshetty16/Explainable-AI-LIME-Framework/assets/63487624/ae1a708f-3f55-4e82-9456-76f0dadd7c0d" alt="image" width="800">
 
+
 Welcome to your assignment this week! In this assignment, we explore the LIME framework to explain potential black-box machine learning models in a model-agnostic way. Using a real-world dataset on Census income, also known as the Adult dataset available in the UCI ML Repository, we predict if the potential income of people is more than $50K/year or not.
-You can view the dataset [here](https://archive.ics.uci.edu/dataset/20/census+income).
+
 
 ## Methodology
 
@@ -22,17 +23,20 @@ We utilize the following methodologies and techniques:
 - xgboost
 - sci-kit-learn
 
+## Results and Insights
+
+- The XGBoost model demonstrated strong performance in predicting Census income, with notable feature importance observed for Age, Education Num, and Hours Per Week.
+- Decision Tree analysis revealed a bias towards predicting income below $50K, highlighting potential areas for model improvement.
+- LIME explanations provided valuable insights into individual predictions, allowing for a better understanding of model decisions.
+
 ## Conclusion
 
 - We successfully employed the LIME framework to explain predictions made by black-box machine learning models.
 - The analysis revealed insights into feature importance, model performance, and decision-making processes.
 - Further exploration could involve the use of other interpretation methods and advanced machine learning models for enhanced prediction explanations.
 
-## Results and Insights
-
-- The XGBoost model demonstrated strong performance in predicting Census income, with notable feature importance observed for Age, Education Num, and Hours Per Week.
-- Decision Tree analysis revealed a bias towards predicting income below $50K, highlighting potential areas for model improvement.
-- LIME explanations provided valuable insights into individual predictions, allowing for a better understanding of model decisions.
+## Dataset
+You can view the dataset [here](https://archive.ics.uci.edu/dataset/20/census+income).
 
 ## Usage
 
